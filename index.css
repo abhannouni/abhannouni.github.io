@@ -1,1 +1,60 @@
-Hello world
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Quattrocento', serif;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+
+.navBar{
+    display: flex;
+    align-content: center;
+    background-color: #000;
+    position: relative;
+    justify-content: space-between;
+    left: 0px;
+    top: 0px;
+    padding: 10px ;
+     bottom:0;
+
+}
+
+
+.nav-links{
+    color: #FFF;
+    display: flex;
+    font-size: 18px;
+}
+
+.nav-links li{
+    padding: 5px 14px;
+    color: #FFF;
+}
+
+.nav-links li a{
+    color: #FFF;
+    padding: 10px;
+}
+
+.nav-links li a:hover{
+    background-color: #D1D1D1;
+}
+
+.nav-links li a:acctive{
+    background-color: #04AA6D;
+    color: darkred;
+}
+
+.logo {
+    font-size: 32px;
+    color: #FFF;
+    text-transform: uppercase;
+    border-bottom: 3px solid #F2C94C;
+}
